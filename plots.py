@@ -19,7 +19,7 @@ st.bar_chart(data)
 st.header("Plotting graph using matplotlib and seaborn")
 
 st.subheader("Loading the DataFrame")
-df=pd.read_csv(r"C:\Users\H.P\Desktop\Python\Learning\Libraries\Streamlit\Ref\iris.csv")
+df=pd.read_csv("iris.csv")
 st.dataframe(df)
 
 st.subheader("Bar Graph using Matplotlib")
